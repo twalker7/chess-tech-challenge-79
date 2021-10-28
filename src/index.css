@@ -12,8 +12,15 @@ code {
     monospace;
 }
 
-.app-container{
+.board-container{
   height: 500px;
   width: 500px;
   border: yellow 5px solid; 
+}
+
+.button{
+  border: red solid 5px;
+  height: 50px;
+  width: 70px;
+  color: black;
 }
