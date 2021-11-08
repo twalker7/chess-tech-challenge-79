@@ -19,8 +19,9 @@ code {
 }
 
 .button{
-  border: red solid 5px;
+  border: rgb(255, 247, 0) solid 5px;
   height: 50px;
   width: 70px;
   color: black;
+  font-size: 20px;
 }
