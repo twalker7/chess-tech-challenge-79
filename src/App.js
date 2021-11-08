@@ -15,5 +15,6 @@ function App() {
     </div>
   );
 }
-
+// add a 'sidebar' component to the App component and give it a float-left .
+// explore react bootstrap for more sophisticated page orientation 
 export default App;
