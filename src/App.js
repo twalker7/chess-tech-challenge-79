@@ -1,6 +1,9 @@
 import './App.css';
 import Board from './components/Board';
 
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button} from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
@@ -8,7 +11,8 @@ function App() {
       <div className="App-page">
       <div>
         <Board></Board>
-        <button className="button"> </button>
+        <Button className="button"> button 1 </Button> 
+        <Button className="button"> button 2 </Button>
         </div>
       </div>
       
