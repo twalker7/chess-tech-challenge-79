@@ -15,7 +15,7 @@ code {
 .board-container{
   height: 700px;
   width: 500px;
-  border: yellow 5px solid; 
+  border: rgb(254, 254, 254) 5px solid; 
 }
 
 .button{
