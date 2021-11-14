@@ -3,7 +3,7 @@ import Board from './components/Board';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // major key 
-import {Button, Alert, Breadcrumb, Card, Row, Column} from 'react-bootstrap';
+import {Row, Column} from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
@@ -13,15 +13,8 @@ function App() {
         <Board> </Board>
 
       
-        <Alert variant="success"> This is an alert button now </Alert>
-        <Breadcrumb.Item> First </Breadcrumb.Item> 
-        <Breadcrumb.Item> Second </Breadcrumb.Item>
-        <Breadcrumb.Item> Third </Breadcrumb.Item>
-
       
-
-        <Button className="button"> button1 </Button> 
-        <Button className="button"> button2 </Button>
+    
         </div>
       </div>
       
