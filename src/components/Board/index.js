@@ -6,8 +6,6 @@ function Board(){
     return(
         <div className="board-container"> 
         <h2> Chess Board contents here </h2> 
-        <img alt="chess board" src=""/>
-
 
         <Card className="mb-3" style={{color:"#000"}} > 
             <Card.Img src="https://picsum.photos/200"/>
