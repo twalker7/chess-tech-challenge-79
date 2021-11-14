@@ -13,7 +13,7 @@ function Board(){
             <Card.Img src="https://picsum.photos/200"/>
             <Card.Body>
               <Card.Title>
-                Console for Chess puzzle stats will go here 
+                Console for Chess Puzzle stats will go here 
               </Card.Title>
             
               
