@@ -17,7 +17,7 @@ function Board(){
               </Card.Title>
             
               
-              <Button variant="primary "> Puzzle Book Navigation Button </Button> 
+            <Button variant="primary "> Puzzle Book Navigation Button </Button> 
             </Card.Body>
           </Card>
         </div>
