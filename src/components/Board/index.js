@@ -2,8 +2,13 @@ import React from 'react';
 
 
 import { Card, Button } from 'react-bootstrap';
+
+
 function Board(){
-    return(
+var respondToClick = ()=>{
+  console.log("this button click worked, for starters");
+}
+  return(
         <div className="board-container"> 
         <h2> Chess Board contents here </h2> 
 
@@ -15,11 +20,12 @@ function Board(){
               </Card.Title>
             
               
-            <Button variant="primary "> Puzzle Book Navigation Button </Button> 
+            <Button variant="primary" id="target" onClick={respondToClick}> Puzzle Book Navigation Button </Button> 
             </Card.Body>
           </Card>
         </div>
     )
+ 
 }
 
 export default Board;
