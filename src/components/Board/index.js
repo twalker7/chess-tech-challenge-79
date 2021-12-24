@@ -4,10 +4,19 @@ import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 
 
+
 function Board(){
 var respondToClick = ()=>{
-  console.log("this button click worked, for starters");
+  console.log("button click");
+  
 }
+
+/*function getChessInfo(){
+  fetch()
+  .then(response=>response.json())
+  .then()
+}
+*/
   return(
         <div className="board-container"> 
         <h2> Chess Board contents here </h2> 
@@ -27,5 +36,7 @@ var respondToClick = ()=>{
     )
  
 }
+
+
 
 export default Board;
